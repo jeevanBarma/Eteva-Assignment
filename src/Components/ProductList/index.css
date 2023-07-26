@@ -1,0 +1,33 @@
+.all-product-main-container{
+    width: 100%;
+    padding-right: 50px;
+}
+
+.ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+}
+.heading{
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 54px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+@media screen and (max-width:767px) {
+    .all-product-main-container{
+        width: 80%;
+    }
+    .ul{
+        grid-template-columns: repeat(1,1fr);
+        width: 90%; 
+    }
+    .heading{
+        font-size: 34px;
+        margin-left: 70px;
+    }
+    
+}
